@@ -14,3 +14,14 @@ for key in count:
         print("Isogram")
         break
 
+#####
+
+def isogram(string):
+    for letter in string:
+        if string.count(letter) > 1:
+            return False
+    return True
+
+print(isogram("Hello"))
+
+print(isogram("bye"))

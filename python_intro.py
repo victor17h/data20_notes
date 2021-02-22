@@ -95,3 +95,48 @@ elif num > 10:
 else:
     print("number is not 10")
 
+##### iterate in a dictionary
+
+list_data = [1, 2, 3, 4, 5]
+embedded_lists = [[1, 2, 3],[4, 5, 6]]
+dict_data = {1: {"name": "Bronson", "money": "$0.05"},
+             2: {"name": "Masha", "money": "$3.66"},
+             3: {"name": "Roscoe", "money": "$1.14"}}
+
+for num in embedded_lists:
+    for num2 in num:
+        print(num2, end=" ")
+
+for x in dict_data:
+    print(x)
+
+for x in dict_data.values():
+    print(x)
+    for y in x.values():
+        print(y)
+
+##### while loop
+
+x = 0
+
+while x < 10:
+    print(f"it's working -> {x}")
+    if x == 4:
+        break
+    x += 1
+
+##### function
+
+def my_function(number1 = 3, number2 = 4):
+    print(f"your input was {number1} and {number2}")
+    return number1 + number2
+
+print(my_function(4, 5))
+
+def my_add_func(*multiargs):
+    print(multiargs)
+    print(type(multiargs))
+    for arg in multiargs:
+        print(arg)
+
+my_add_func(3, "dafad", ["hello", 5])

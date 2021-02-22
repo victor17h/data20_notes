@@ -5,6 +5,7 @@ for letter in word:
         count[letter] += 1
     else:
         count[letter] = 1
+print(count)
 
 for key in count:
     if count[key] > 1:
@@ -23,4 +24,5 @@ def isogram(string):
     return True
 
 print(isogram("Hello"))
+
 print(isogram("bye"))

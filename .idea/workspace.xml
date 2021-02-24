@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b79f82b-de56-4114-9b0a-ed4e176317d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Film.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car_Project_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User_Details_Capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_Details_Capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_intro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +35,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
-  <component name="RunManager" selected="Python.Hangman">
-    <configuration name="Film" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.python_intro">
+    <configuration name="Car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -51,7 +48,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Car.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User_Details_Capture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -114,7 +111,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User_Details_Capture.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_intro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_intro" />
+        <item itemvalue="Python.Car" />
         <item itemvalue="Python.Hangman" />
         <item itemvalue="Python.Isogram_Challenge" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Film" />
-        <item itemvalue="Python.User_Details_Capture" />
       </list>
     </recent_temporary>
   </component>

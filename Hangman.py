@@ -8,7 +8,7 @@ hidden_word = len(word) * ["_"]
 
 def hangman():
     print(f"There are {len(word)} letters in {secret_word}")
-    letters = {}
+    letters = []
     tries = 5
 
     while tries != 0:
@@ -21,9 +21,9 @@ def hangman():
             tries -= 1
 
         if guess_letter in letters:
-            letters[guess_letter] += 1
+            letters += guess_letter
         else:
-            letters[guess_letter] = 1
+            letters += guess_letter
 
         for i, letter in enumerate(word):
             if letter != "_" and guess_letter == letter:

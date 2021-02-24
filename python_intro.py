@@ -140,3 +140,88 @@ def my_add_func(*multiargs):
         print(arg)
 
 my_add_func(3, "dafad", ["hello", 5])
+
+
+##### classes
+
+class Dog:
+
+    animal_kind = 'canine'
+
+    def __init__(self, name, bread):
+        self.name = name
+        self.bread = bread
+        self.bark()
+
+    def bark(self):
+        print ('woof')
+
+print(Dog.animal_kind)
+
+husky = Dog("husky", "husky")
+lacy = Dog("lacy", "jack russel")
+
+
+print(type(husky))
+print(husky.bark())
+print(husky.animal_kind)
+
+husky.animal_kind = "Big Dog"
+Dog.animal_kind = "Dolphins"
+
+print(husky.animal_kind)
+print(lacy.animal_kind)
+
+
+print(lacy.bread)
+print(lacy.name)
+
+husky = Dog("husky", "husky")
+lacy = Dog("lacy", "jack russel")
+
+
+#####class2
+
+class MethodExamples:
+
+    def __init__(self):
+        self._this_can_be_accessed = "I can be accessed easily"
+
+    def get_this_can_be(self):
+        return self._this_can_be_accessed
+
+    def set_this_can_be(self):
+        self._this_can_be_accessed = value_to_be_set
+
+x = MethodExamples()
+
+print(x.get_this_can_be())
+
+
+##### class3
+
+class Animal:
+
+    def __init__(self):
+        self.alive = True
+        self.breathe()
+
+    def breathe(self):
+        print("one breathe in, one out")
+
+class LandMammal(Animal):
+
+    def __init__(self, legs):
+        super().__init__()
+        self.legs = legs
+
+    def run(self):
+        print("I can run!")
+
+Horse = Animal()
+Mammoth = LandMammal(4)
+
+Horse.alive = False
+print(Horse.alive)
+
+print(Mammoth.run())
